@@ -9,5 +9,3 @@ bot.on("Ready", function() {
     console.log("Ready");
     bot.user.setActivity("New Users", {type: 2});
 });
-
-client.login(process.env.BOT_TOKEN);
